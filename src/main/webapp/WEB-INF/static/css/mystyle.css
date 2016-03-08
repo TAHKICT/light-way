@@ -1,0 +1,29 @@
+#currency-table thead tr {
+	background: #87CEEB		;
+	color: #fff;
+}
+.connect-img{
+	height: 150px;
+	
+}
+.bank-img{
+  width: 400px;
+}
+   .button-my {
+    border: 0px solid #333; /* Рамка */
+    background: linear-gradient(to bottom, #00BFFF, #e9e9ce); /* Градиент */
+    display: inline-block;
+    padding: 15px 15px; /* Поля */
+    text-decoration: none; /* Убираем подчёркивание */
+    color: #000; /* Цвет текста */
+    font: bold italic 20px serif;
+  }
+   .button-my:hover {
+    box-shadow: 0 0 5px rgba(0,0,0,0.3); /* Тень */
+    background: linear-gradient(to bottom, #fcfff4, #e9e9ce); /* Градиент */
+    color: #a00;
+        text-decoration: none; /* Убираем подчёркивание */
+
+   }
+ 
+

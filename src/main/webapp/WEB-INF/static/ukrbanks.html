@@ -1,0 +1,244 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" 
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+  <head>
+    <title>currency rate</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+    <link href="css/mystyle.css" rel="stylesheet">
+    <link href="css/jquery-1.11.1.min.css" rel="stylesheet">
+    <script src="js.bootstrap.min.js"></script>
+	<link href="http://fonts.googleapis.com/css?family=Oswald:400,300" rel="stylesheet">
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+	<div class="wrapper container">
+		<header>
+			<a href="/"><img src="images/logo.png" alt="Курс валют"></a>
+			<form name="search" action="#" method="get" class="form-inline form-search pull-right">
+				<div class="input-group">
+					<label class="sr-only" for="searchInput">Поиск</label>
+					<input class="form-control" id="searchInput" type="text" name="search" placeholder="поиск">
+					<div class="input-group-btn">
+						<button type="submit" class="btn btn-primary">GO</button>
+					</div>
+				</div>
+			</form>
+		</header>
+		<nav class="navbar navbar-default">
+			<ul class="nav navbar-nav">
+				<li><a href="main.html">Главная</a></li>
+				<li ><a href="about.html">О сервисе</a></li>
+				<li><a href="../rates">Текущий курс</a></li>
+				<li class="active"><a href="ukrbanks.html">Банки Украины</a></li>
+				<li><a href="author.html">Об авторе</a></li>
+				<li><a href="connect.html">Связь с автором</a></li>
+			</ul>
+		</nav>
+		<div class="heading">
+			<h1>UKRAINIAN BANKS</h1>
+		</div>
+		<div class="row">
+			
+			<section class="col-md-24">
+				<div class="jumbotron">
+					<blockquote>
+						<p>
+							&ldquo;Люди считают, что программирование — это наука избранных, но в реальности все наоборот — просто много людей создают программы, которые используют чужие программы, как-будто строя стену из маленьких кирпичиков.&rdquo;
+						</p>
+						<small>Donald Knuth</small>
+					</blockquote>
+				</div>
+				<div class = "text-success">
+				<table id="currency-table" class="table table-hover table-bordered" >
+					<thead>
+						<tr>
+							<th>Banks</th>
+							<th>description</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td><a href="http://pravex.com.ua" ><img id="vk-image" src="images/logobanks/pravex.jpg" class="img-rounded bank-img"></a></td>
+							<td>
+								<p>ПАТКБ «ПРАВЕКС-БАНК» - універсальна фінансова організація, яка надає весь спектр банківських послуг по всій території України. Завдяки широкій мережі, що складається з 260 відділень, ПРАВЕКС-БАНК представлений у всіх куточках нашої країни. У поєднанні з бездоганною 20-річною історією успішної діяльності це дозволило банку стати одним з найбільш відомих банківських брендів України.</p>
+								<p><a href="/pravexbank">Посмотреть историю курса</a> </p>
+							</td>
+						</tr>
+						<tr>
+							<td><a href="http://xcitybank.com.ua" ><img id="vk-image" src="images/logobanks/xbank.jpg" class="img-rounded bank-img"></a></td>
+							<td>
+								<p>Форма власності — публічне акціонерне товариство.</p>
+								<p>Місія банку - забезпечення потреб кожного клієнта, корпоративного або приватного, у банківських послугах високої якості і надійності, розвиток на цій основі ефективного банківського бізнесу, який би забезпечував захист і постійний приріст коштів клієнтів та акціонерів.</p>
+								<p><a href="/xcitybank">Посмотреть историю курса</a> </p>
+							</td>
+						</tr>
+						<tr>
+							<td><a href="http://www.ukrsibbank.com/" ><img id="vk-image" src="images/logobanks/ukrsibbank.jpg" class="img-rounded bank-img"></a></td>
+							<td>
+								<p>CityCommerce Bank - український банк, який належить керуючій компанії Global Financial Management Group. Стратегія розвитку Групи заснована на двох постулатах: успішний бізнес і соціально відповідальний бізнес, який прагне максимізувати свій внесок у всебічний розвиток України. Цими ж принципами керується у своїй діяльності і Банк.</p><p>Команда CityCommerce Bank має багатий досвід роботи, як в Україні, так і в європейських країнах. Це дозволяє нам застосовувати кращі практики в обслуговуванні і пропонувати цікаві клієнтам послуги .</p>
+								<p><a href="/ukrsibbank">Посмотреть историю курса</a> </p>
+							</td>
+							
+						</tr>
+						<tr>
+							<td><a href="https://privatbank.ua" ><img id="vk-image" src="images/logobanks/privat.jpg" class="bank-img"></a></td>
+							<td>
+								<p>ПриватБанк є одним з найбільш інноваційних банків світу. Наприклад, понад десять років назад банк став одним із перших у світі, що почав використовувати одноразові SMS-паролі. До останніх інновацій, які отримали визнання по всьому світі, належать такі продукти, як платіжний міні-термінал, вхід в Інтернет-банкінг через QR-код, онлайн-інкасація, а також десятки різноманітних мобільных додатків.</p>
+								<p><a href="/privatbank">Посмотреть историю курса</a> </p>
+							</td>
+						</tr>
+						<tr>
+							<td><a href="http://pumb.ua" ><img id="vk-image" src="images/logobanks/pubm.jpg" class="bank-img"></a></td>
+							<td>
+								<p>Перший Український Міжнародний Банк (ПУМБ) − це великий і надійний приватний банк, який вже понад 20 років працює на українському фінансовому ринку і прагне надавати клієнтам високоякісні банківські послуги, сервіс, що постійно удосконалюється, та індивідуальний підхід.</p>
+								<p>ПУМБ входить в десятку найбільших банків України за ключовими фінансовими показниками.</p>
+								<p><a href="/pumb">Посмотреть историю курса</a> </p>
+							</td>
+						</tr>
+						<tr>
+							<td><a href="http://www.alfabank.ua/" ><img id="vk-image" src="images/logobanks/alfabank.jpeg" class="bank-img"></a></td>
+							<td>
+								<p>Альфа-Банк (Україна) – це великий український банк, що належить до приватної міжнародної групи «Альфа-Банк», яка представлена в Україні, Росії, Казахстані, Білорусі та Нідерландах.</p>
+								<p>Банк займає лідируючі позиції в усіх сегментах банківського ринку України. Згідно з рейтингом Національного банку України, Альфа-Банк входить до ТОП-10 найбільших банків країни за розмірами активів та є одним із лідерів за обсягом засобів юридичних осіб та темпам приросту засобів фізичних осіб.</p>
+								<p><a href="/alfabank">Посмотреть историю курса</a> </p>
+							</td>
+						</tr>
+					<tbody>
+
+
+				</table>
+				
+					</div>
+				
+				<h2>USED TECHNOLOGIES</h2>
+				<div class="team">
+					<div class="row">
+						<div class="col col-md-4">
+							<img src="images/technologies/developer.jpg" alt="John Doe" class="thumbnail">
+							<div class="caption">
+								<h3>Roman Mykhailenko</h3>
+								<p>developer</p>
+							</div>
+						</div>
+						<div class="col col-md-4 col-md-offset-1">
+							<img src="images/technologies/hibernate.jpg" alt="Saundra Pittsley" class="thumbnail">
+							<div class="caption">
+								<h3>Hibernate</h3>
+								<p>technology</p>
+							</div>
+						</div>
+						<div class="col col-md-4 col-md-offset-1">
+							<img src="images/technologies/bootstrap.jpg" alt="Julio Simser" class="thumbnail">
+							<div class="caption">
+								<h3>Bootstrap</h3>
+								<p>framework</p>
+							</div>
+						</div>
+						<div class="col col-md-4 col-md-offset-1">
+							<img src="images/technologies/spring.jpg" alt="Margery Venuti" class="thumbnail">
+							<div class="caption">
+								<h3>Spring</h3>
+								<p>framework</p>
+							</div>
+						</div>
+						<div class="col col-md-4 col-md-offset-1">
+							<img src="images/technologies/idea.jpg" alt="Fernando Tondrea" class="thumbnail">
+							<div class="caption">
+								<h3>Intelij IDEA</h3>
+								<p>ide</p>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col col-md-4">
+							<img src="images/technologies/tomcat.jpg" alt="Ericka Nobriga" class="thumbnail">
+							<div class="caption">
+								<h3>Tomcat</h3>
+								<p>apache</p>
+							</div>
+						</div>
+						<div class="col col-md-4 col-md-offset-1">
+							<img src="images/technologies/sublime.jpg" alt="Cody Rousselle" class="thumbnail">
+							<div class="caption">
+								<h3>Sublime Text</h3>
+								<p>text redactor</p>
+							</div>
+						</div>
+						<div class="col col-md-4 col-md-offset-1">
+							<img src="images/technologies/mysql.jpg" alt="Erik Wollman" class="thumbnail">
+							<div class="caption">
+								<h3>MySQL</h3>
+								<p>database</p>
+							</div>
+						</div>
+						<div class="col col-md-4 col-md-offset-1">
+							<img src="images/technologies/html5.jpg" alt="Dona Shoff" class="thumbnail">
+							<div class="caption">
+								<h3>html5</h3>
+								<p>HyperText Markup Language</p>
+							</div>
+						</div>
+						<div class="col col-md-4 col-md-offset-1">
+							<img src="images/technologies/css.jpg" alt="Darryl Brunton" class="thumbnail">
+							<div class="caption">
+								<h3>CSS3</h3>
+								<p>lCascading Style Sheets</p>
+							</div>
+					</div>
+				</div>
+			</section>
+		</div>
+	</div>
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 twitter">
+					<h3>Twitter feed</h3>
+					<time datetime="2012-10-23"><a href="#">23 oct</a></time>
+					<p>
+						In ultricies pellentesque massa a porta. Aliquam ipsum enim, hendrerit ut porta nec, ullamcorper et nulla. In eget mi dui, sit amet scelerisque nunc. Aenean aug
+					</p>
+				</div>
+				<div class="col-md-4 sitemap">
+					<h3>Sitemap</h3>
+					<div class="row">
+						<div class="col-md-12">
+							<a href="about.html">Home</a>
+							<a href="about.html">About</a>
+							<a href="../views/currency.jsp">Currency</a>
+						</div>
+						<div class="col-md-12">
+							<a href="ukrbanks.html">Banks</a>
+							<a href="author.html">Author</a>
+							<a href="connect.html">Contact</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 social">
+					<h3>Social networks</h3>
+					<a href="http://twitter.com/" class="social-icon twitter"></a>
+					<a href="http://facebook.com/" class="social-icon facebook"></a>
+					<a href="http://plus.google.com/" class="social-icon google-plus"></a>
+					<a href="http://vimeo.com/" class="social-icon-small vimeo"></a>
+					<a href="http://youtube.com/" class="social-icon-small youtube"></a>
+					<a href="http://flickr.com/" class="social-icon-small flickr"></a>
+					<a href="http://instagram.com/" class="social-icon-small instagram"></a>
+					<a href="/rss/" class="social-icon-small rss"></a>
+				</div>
+				<div class="col-md-8 footer-logo">
+					<a href="/"><img src="images/footer-logo.png" alt="Whitesquare logo"></a>
+					<p>
+						Copyright &copy; 2012 Whitesquare. A
+						<a href="http://pcklab.com">pcklab</a> creation
+					</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+  </body>
+</html>
